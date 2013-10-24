@@ -1,4 +1,9 @@
 Autoescuela::Application.routes.draw do
+  get "pages/inicio"
+  get "pages/precio"
+  get "pages/como_funciona"
+  get "pages/contacto"
+  get "pages/entrar"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
